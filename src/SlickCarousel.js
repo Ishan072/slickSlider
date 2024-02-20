@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import {longList} from "./data";
+import {list} from "./data";
 import {FaQuoteRight} from "react-icons/fa";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -17,7 +17,7 @@ const SlickCarousel = () => {
         autoplaySpeed: 3000,
         pauseOnHover: true,
       };
-      const people = longList;
+      const people = list;
       return (
         <div className="slick-container">
             <Slider {...settings}>
